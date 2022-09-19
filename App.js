@@ -24,25 +24,4 @@ export default function App() {
             </NavigationContainer>
         </GestureHandlerRootView>
     );
-}
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        display: 'flex',
-        paddingHorizontal: 5,
-        flexDirection: 'row',
-        backgroundColor: '#fff',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-    },
-    box: {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        borderWidth: 1,
-        borderColor: '#fff',
-        width: '30%',
-        height: 120,
-    },
-});
+};
